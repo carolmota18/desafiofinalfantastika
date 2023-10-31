@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid red;
+    height: 10vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+section{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    border: solid blue;
+}
+div{
+    width:15%;
+    display:flex;
+    justify-content: space-evenly;
+}
+img{
+    width:2vw;
+}
+h1{
+    font-size:1rem;
+}
