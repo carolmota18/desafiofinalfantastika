@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Lora:ital,wght@0,400;0,600;1,700&family=Martian+Mono&family=Mooli&family=Open+Sans&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Lora:ital,wght@0,400;0,600;1,700&family=Martian+Mono&family=Mooli&family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -14,7 +14,7 @@ header{
     justify-content: space-evenly;
     height: 10vh;
 }
-nav{
+header nav{
     display: flex;
     align-items: center;
 }
@@ -25,12 +25,13 @@ header section{
    
 }
 div{
-    width:15%;
+    width:50%;
     display:flex;
     justify-content: space-evenly;
 }
 header img{
     width: 2vw;
+    margin-left: 6%;
 }
 div img{
     width:2vw;
@@ -96,7 +97,6 @@ h1{
     margin-top: 4rem;
     margin-right: 36rem;
     font-size: 1rem;
-
 }
 .mordomiaSaudavel{
     width: 100%;
@@ -132,7 +132,7 @@ h1{
     font-size: 1rem;
 }
 .sessaoApoio{
-    height: 20vh;
+    height: 10vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -140,6 +140,8 @@ h1{
 .sessaoApoio h3{
     color:#FD6A9A;
     font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
 }.caixaImgs{
     width: 50%;
     display: flex;
@@ -153,33 +155,33 @@ h1{
     display: flex;
     border:  solid salmon;
     background-color: #EB4A7B;
+    columns: 3;
+    margin-top: 5%;
 }
 nav{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    border: solid sienna;
+    columns: 3;
+    gap:30px;
+    display: block;
 }
 ul{
     height: 30vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: solid blueviolet;
+    display: inline-block;
 
 }
 li{
     list-style: none;
+    display: flex;
+    color: white;
 }
 nav .titulo{
+    color: white;
     width: 20%;
-    height: 40vh;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    border: solid skyblue;
+    height: 6vh;
+    display: inline-block;
+    top:30%;
+    font-size: 0.9em;
 
 }
 
